@@ -1,0 +1,1 @@
+This code tests how long it takes for your device to securely connect and authenticate to AWS IoT Core using MQTT with TLS and X.509 certificates
