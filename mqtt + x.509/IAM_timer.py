@@ -7,8 +7,8 @@ session_name = "test-session"
 def assume_role():
     sts_client = boto3.client(
         'sts',
-        aws_access_key_id='AKIATW4V3OD6TAERHQUI',        
-        aws_secret_access_key='NFXlcSndPwlLajF7tphNUdhtvM9WoCay45Qi6Uxi', 
+        aws_access_key_id='your_access_key',        
+        aws_secret_access_key='your_secret_access_key', 
         region_name='us-east-1'                         
     )
 
